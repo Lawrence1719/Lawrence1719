@@ -2,7 +2,7 @@
 
 **Software Engineer & AI Systems Builder**
 
-![Engineering workflow](./assets/engineering-flow.svg)
+![LD Engineering Signature](./assets/engineering-flow.svg)
 
 Building systems where software engineering meets intelligent automation.
 
@@ -10,11 +10,11 @@ Building systems where software engineering meets intelligent automation.
 
 ---
 
-### 01 / Currently Building
+### 01 / Current Focus
 
-**BOSS — AI Engineering System**
+**BOSS — AI Engineering System** · *In development*
 
-Multi-agent orchestration, automated software delivery, and engineering quality systems at **BossLabs AI**.
+Multi-agent orchestration and automated software engineering at **BossLabs AI**.
 
 `AI Agents` · `Orchestration` · `Automation`
 
@@ -28,4 +28,4 @@ PostgreSQL · Supabase · Vercel · Claude · Codex
 
 ---
 
-<sub>BossLabs AI · Design. Engineer. Ship.</sub>
+<sub>Design. Engineer. Ship.</sub>
