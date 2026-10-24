@@ -1,26 +1,29 @@
 # Lawrence Dizon
 
-**Software Engineer · AI Systems Builder**
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=3500&pause=1200&color=8B949E&width=550&height=35&vCenter=true&lines=Software+Engineer+%2F+AI+Systems+Builder;Building+scalable+software;Engineering+intelligent+systems" alt="Animated engineering introduction" />
 
-Building intelligent systems, scalable applications, and developer tools.
+I design and build scalable software, intelligent systems, and tools that make engineering more efficient.
 
-### About
-
-- Building software and AI-powered systems at **BossLabs AI**
-- Working with full-stack development, automation, and AI agents
-- Interested in system architecture, developer experience, and scalable infrastructure
-
-### Tech Stack
-
-`TypeScript` · `Next.js` · `React` · `Node.js` · `Python`  
-`PostgreSQL` · `Supabase` · `GitHub` · `Vercel`
-
-### Current Focus
-
-**BOSS** — An AI-powered software engineering system focused on agent orchestration, automated development, and quality control.
+[Portfolio ↗](https://lawrence-dizon.vercel.app/)
 
 ---
 
-[Portfolio](https://lawrence-dizon.vercel.app/) · [GitHub](https://github.com/Lawrence1719)
+### 01 / Currently Building
 
-*Build. Ship. Improve.*
+**BOSS — AI Engineering System**
+
+Exploring multi-agent orchestration, automated software delivery, and engineering quality systems at **BossLabs AI**.
+
+`AI Agents` · `Orchestration` · `Automation`
+
+### 02 / Technologies
+
+**Engineering**  
+TypeScript · Next.js · React · Node.js · Python
+
+**Infrastructure & AI**  
+PostgreSQL · Supabase · Vercel · Claude · Codex
+
+---
+
+<sub>BossLabs AI · Design. Engineer. Ship.</sub>
