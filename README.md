@@ -2,7 +2,7 @@
 
 **Software Engineer & AI Systems Builder**
 
-![LD Engineering Signature](./assets/engineering-flow.svg)
+<img src="./assets/engineering-flow.svg?v=2" width="100%" alt="LD Engineering Network" />
 
 Building systems where software engineering meets intelligent automation.
 
