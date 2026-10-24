@@ -1,8 +1,10 @@
 # Lawrence Dizon
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=17&duration=3500&pause=1200&color=8B949E&width=550&height=35&vCenter=true&lines=Software+Engineer+%2F+AI+Systems+Builder;Building+scalable+software;Engineering+intelligent+systems" alt="Animated engineering introduction" />
+**Software Engineer & AI Systems Builder**
 
-I design and build scalable software, intelligent systems, and tools that make engineering more efficient.
+![Engineering workflow](./assets/engineering-flow.svg)
+
+Building systems where software engineering meets intelligent automation.
 
 [Portfolio ↗](https://lawrence-dizon.vercel.app/)
 
@@ -12,7 +14,7 @@ I design and build scalable software, intelligent systems, and tools that make e
 
 **BOSS — AI Engineering System**
 
-Exploring multi-agent orchestration, automated software delivery, and engineering quality systems at **BossLabs AI**.
+Multi-agent orchestration, automated software delivery, and engineering quality systems at **BossLabs AI**.
 
 `AI Agents` · `Orchestration` · `Automation`
 
