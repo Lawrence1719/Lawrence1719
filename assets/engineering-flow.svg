@@ -1,52 +1,131 @@
 
 <svg xmlns="http://www.w3.org/2000/svg"
-     width="700" height="120" viewBox="0 0 700 120">
-  <title>Lawrence Engineering Workflow</title>
+     width="700" height="180" viewBox="0 0 700 180"
+     role="img"
+     aria-label="Animated LD engineering network">
 
-  <!-- Connection paths -->
-  <g fill="none" stroke="#30363d" stroke-width="2">
-    <path d="M40 60 H180 L270 20 H430 L520 60 H660"/>
-    <path d="M180 60 L270 100 H430 L520 60"/>
+  <title>LD — Engineering Network</title>
+
+  <defs>
+    <linearGradient id="signature" x1="0" x2="1">
+      <stop offset="0%" stop-color="#8b949e"/>
+      <stop offset="50%" stop-color="#f0f6fc"/>
+      <stop offset="100%" stop-color="#8b949e"/>
+    </linearGradient>
+  </defs>
+
+  <!-- LD signature -->
+  <text x="350" y="108"
+        text-anchor="middle"
+        font-family="Arial, Helvetica, sans-serif"
+        font-size="82"
+        font-weight="700"
+        letter-spacing="-5"
+        fill="url(#signature)">LD</text>
+
+  <!-- Left engineering network -->
+  <g fill="none" stroke="#484f58"
+     stroke-width="1.5"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+    <path d="M35 90 H220"/>
+    <path d="M165 90 L205 35 H280"/>
+    <path d="M205 35 L165 90 L220 90"/>
   </g>
 
-  <!-- Connection nodes -->
-  <g fill="#0d1117" stroke="#8b949e" stroke-width="2">
-    <circle cx="40" cy="60" r="5"/>
-    <circle cx="180" cy="60" r="5"/>
-    <circle cx="520" cy="60" r="5"/>
-    <circle cx="660" cy="60" r="5"/>
+  <!-- Right engineering network -->
+  <g fill="none" stroke="#484f58"
+     stroke-width="1.5"
+     stroke-linecap="round"
+     stroke-linejoin="round">
+
+    <path d="M480 90 H665"/>
+    <path d="M420 145 H495 L535 90"/>
+    <path d="M535 90 L495 145 H420"/>
   </g>
 
-  <!-- Engineering nodes -->
-  <g fill="#c9d1d9">
-    <circle cx="350" cy="20" r="4"/>
-    <circle cx="350" cy="100" r="4"/>
+  <!-- Static junction nodes -->
+  <g fill="#8b949e">
+    <circle cx="35" cy="90" r="3"/>
+    <circle cx="165" cy="90" r="3"/>
+    <circle cx="205" cy="35" r="3"/>
+    <circle cx="280" cy="35" r="3"/>
+    <circle cx="220" cy="90" r="3"/>
+
+    <circle cx="420" cy="145" r="3"/>
+    <circle cx="495" cy="145" r="3"/>
+    <circle cx="535" cy="90" r="3"/>
+    <circle cx="480" cy="90" r="3"/>
+    <circle cx="665" cy="90" r="3"/>
   </g>
 
-  <!-- Animated primary signal -->
-  <circle r="5" fill="#f0f6fc">
+  <!-- Signal 1: horizontal to upper branch -->
+  <circle r="4" fill="#f0f6fc">
     <animateMotion
       dur="5s"
       repeatCount="indefinite"
-      path="M40 60 H180 L270 20 H430 L520 60 H660"/>
+      path="M35 90 H165 L205 35 H280
+            H205 L165 90 H220"/>
   </circle>
 
-  <!-- Animated secondary signal -->
-  <circle r="4" fill="#8b949e">
+  <!-- Signal 2: upper branch to horizontal -->
+  <circle r="3" fill="#a1a1aa">
     <animateMotion
-      dur="5s"
-      begin="2.5s"
+      dur="6s"
+      begin="-2s"
       repeatCount="indefinite"
-      path="M40 60 H180 L270 100 H430 L520 60 H660"/>
+      path="M280 35 H205 L165 90
+            H35 H165 L205 35"/>
   </circle>
 
-  <!-- Labels -->
+  <!-- Signal 3: horizontal to lower branch -->
+  <circle r="4" fill="#f0f6fc">
+    <animateMotion
+      dur="5.5s"
+      begin="-1s"
+      repeatCount="indefinite"
+      path="M665 90 H535 L495 145
+            H420 H495 L535 90 H480"/>
+  </circle>
+
+  <!-- Signal 4: lower branch to horizontal -->
+  <circle r="3" fill="#a1a1aa">
+    <animateMotion
+      dur="6.5s"
+      begin="-3s"
+      repeatCount="indefinite"
+      path="M420 145 H495 L535 90
+            H665 H535 L495 145"/>
+  </circle>
+
+  <!-- Subtle pulsing junctions -->
+  <circle cx="165" cy="90" r="3" fill="#f0f6fc">
+    <animate attributeName="opacity"
+             values="0.2;1;0.2"
+             dur="3s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <circle cx="535" cy="90" r="3" fill="#f0f6fc">
+    <animate attributeName="opacity"
+             values="0.2;1;0.2"
+             dur="3.5s"
+             repeatCount="indefinite"/>
+  </circle>
+
+  <!-- Footer labels -->
   <g fill="#8b949e"
      font-family="monospace"
-     font-size="11"
-     letter-spacing="2">
-    <text x="40" y="90">DESIGN</text>
-    <text x="315" y="60">ENGINEER</text>
-    <text x="620" y="90">SHIP</text>
+     font-size="12"
+     letter-spacing="3">
+
+    <text x="35" y="160">DESIGN</text>
+
+    <text x="350" y="160"
+          text-anchor="middle">ENGINEER</text>
+
+    <text x="665" y="160"
+          text-anchor="end">SHIP</text>
   </g>
 </svg>
