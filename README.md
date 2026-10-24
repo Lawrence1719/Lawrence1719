@@ -1,16 +1,26 @@
-## Hi there 👋
+# Lawrence Dizon
 
-<!--
-**Lawrence1719/Lawrence1719** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+**Software Engineer · AI Systems Builder**
 
-Here are some ideas to get you started:
+Building intelligent systems, scalable applications, and developer tools.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### About
+
+- Building software and AI-powered systems at **BossLabs AI**
+- Working with full-stack development, automation, and AI agents
+- Interested in system architecture, developer experience, and scalable infrastructure
+
+### Tech Stack
+
+`TypeScript` · `Next.js` · `React` · `Node.js` · `Python`  
+`PostgreSQL` · `Supabase` · `GitHub` · `Vercel`
+
+### Current Focus
+
+**BOSS** — An AI-powered software engineering system focused on agent orchestration, automated development, and quality control.
+
+---
+
+[Portfolio](https://lawrence-dizon.vercel.app/) · [GitHub](https://github.com/Lawrence1719)
+
+*Build. Ship. Improve.*
